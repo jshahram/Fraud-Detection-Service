@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: fraud-detection-service
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JacksonJsonSerializer
+      properties:
+        spring.json.add.type.headers: false
+    streams:
+      application-id: fraud-detection-engine-v1
+      default-key-serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+      default-value-serde: org.springframework.kafka.support.serializer.JacksonJsonSerde
+      properties:
+        spring.json.trusted.packages: "frauddetectionservice.data"
+        commit.interval.ms: 1000
+        state.dir: /tmp/kafka-streams-fraud
