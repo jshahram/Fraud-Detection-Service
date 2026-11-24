@@ -4,7 +4,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.1.7'
 }
 
-group = ''
+group = 'com.shahramjaved'
 version = '0.0.1-SNAPSHOT'
 
 java {
@@ -29,9 +29,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 
 	// Database / ORM
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+//	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	// Database driver (MySQL)
-	runtimeOnly 'com.mysql:mysql-connector-j'
+//	runtimeOnly 'com.mysql:mysql-connector-j'
 
 	// Kafka
 	implementation 'org.springframework.boot:spring-boot-starter-kafka'

@@ -1,7 +1,7 @@
-package frauddetectionservice.topology;
+package com.shahramjaved.frauddetectionservice.topology;
 
-import frauddetectionservice.data.*;
-import frauddetectionservice.util.KafkaUtil;
+import com.shahramjaved.frauddetectionservice.data.*;
+import com.shahramjaved.frauddetectionservice.util.KafkaUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.common.utils.Bytes;

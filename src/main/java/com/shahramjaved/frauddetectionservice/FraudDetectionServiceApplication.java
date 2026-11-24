@@ -1,4 +1,4 @@
-package frauddetectionservice;
+package com.shahramjaved.frauddetectionservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

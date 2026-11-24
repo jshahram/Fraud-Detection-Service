@@ -1,10 +1,10 @@
-package frauddetectionservice.topology;
+package com.shahramjaved.frauddetectionservice.topology;
 
-import frauddetectionservice.data.Account;
-import frauddetectionservice.data.FraudAlert;
-import frauddetectionservice.data.Merchant;
-import frauddetectionservice.data.Transaction;
-import frauddetectionservice.util.KafkaUtil;
+import com.shahramjaved.frauddetectionservice.data.Account;
+import com.shahramjaved.frauddetectionservice.data.FraudAlert;
+import com.shahramjaved.frauddetectionservice.data.Merchant;
+import com.shahramjaved.frauddetectionservice.data.Transaction;
+import com.shahramjaved.frauddetectionservice.util.KafkaUtil;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.*;
 import org.junit.jupiter.api.AfterEach;

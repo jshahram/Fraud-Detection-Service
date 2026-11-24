@@ -1,4 +1,4 @@
-package frauddetectionservice.data;
+package com.shahramjaved.frauddetectionservice.data;
 
 import lombok.Builder;
 

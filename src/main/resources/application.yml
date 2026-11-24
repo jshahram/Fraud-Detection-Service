@@ -14,6 +14,6 @@ spring:
       default-key-serde: org.apache.kafka.common.serialization.Serdes$StringSerde
       default-value-serde: org.springframework.kafka.support.serializer.JacksonJsonSerde
       properties:
-        spring.json.trusted.packages: "frauddetectionservice.data"
+        spring.json.trusted.packages: "com.shahramjaved.frauddetectionservice.data"
         commit.interval.ms: 1000
         state.dir: /tmp/kafka-streams-fraud

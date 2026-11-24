@@ -1,6 +1,6 @@
-package frauddetectionservice.provider;
+package com.shahramjaved.frauddetectionservice.provider;
 
-import frauddetectionservice.data.Merchant;
+import com.shahramjaved.frauddetectionservice.data.Merchant;
 import org.springframework.stereotype.Component;
 
 import java.util.Collections;

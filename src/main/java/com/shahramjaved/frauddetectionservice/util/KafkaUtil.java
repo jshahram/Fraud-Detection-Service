@@ -1,4 +1,4 @@
-package frauddetectionservice.util;
+package com.shahramjaved.frauddetectionservice.util;
 
 import lombok.experimental.UtilityClass;
 import org.springframework.kafka.support.serializer.JacksonJsonSerde;

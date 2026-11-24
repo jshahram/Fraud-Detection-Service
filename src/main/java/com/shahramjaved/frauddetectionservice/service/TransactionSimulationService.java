@@ -1,11 +1,11 @@
-package frauddetectionservice.service;
+package com.shahramjaved.frauddetectionservice.service;
 
-import frauddetectionservice.data.Account;
-import frauddetectionservice.data.Merchant;
-import frauddetectionservice.data.Transaction;
-import frauddetectionservice.provider.AccountDataProvider;
-import frauddetectionservice.provider.CountryDataProvider;
-import frauddetectionservice.provider.MerchantDataProvider;
+import com.shahramjaved.frauddetectionservice.data.Account;
+import com.shahramjaved.frauddetectionservice.data.Merchant;
+import com.shahramjaved.frauddetectionservice.data.Transaction;
+import com.shahramjaved.frauddetectionservice.provider.AccountDataProvider;
+import com.shahramjaved.frauddetectionservice.provider.CountryDataProvider;
+import com.shahramjaved.frauddetectionservice.provider.MerchantDataProvider;
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
